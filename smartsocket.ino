@@ -13,11 +13,11 @@
 
 //-------------------------------Anedya Setup------------------------------------------------------------------
 #define regionCode "ap-in-1"                                   // Anedya region code (e.g., "ap-in-1" for Asia-Pacific/India) | For other country code, visity [https://docs.anedya.io/device/intro/#region]
-const char *deviceID = "70a9b169-fb89-4caf-aeec-fc94615c2d51"; // Fill your device Id , that you can get from your node description
-const char *connectionKey = "7c21fec856cc4363b4ad086f2e468395";  // Fill your connection key, that you can get from your node description
+const char *deviceID = "70a9b169-fb89-4caf-aeec-f15c2d51"; // Fill your device Id , that you can get from your node description
+const char *connectionKey = "7c21fec3b4ad086f2e468395";  // Fill your connection key, that you can get from your node description
 //-------------------------------Wifi Setup------------------------------------------------------------------
 const char *ssid = "Manav_4G";     // Replace with your WiFi name
-const char *pass = "9173125462"; // Replace with your WiFi password
+const char *pass = "11111111"; // Replace with your WiFi password
 //-------------------------------Pins allocation---------------------------------------------------------------
 #define lightPin 16 // pin marked as D0 on the NodeMCU board
 #define fanPin   14 // pin marked as D5 on the NodeMCU board
