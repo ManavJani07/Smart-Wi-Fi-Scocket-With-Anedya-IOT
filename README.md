@@ -73,7 +73,7 @@ The Smart WiFi Socket is a WiFi-operated device that allows you to control any e
    - Open the Home.py File and add the NODE ID and API KEY provided by Anedya iot.
    - save the file.
 
-5. **Set Up  Streamlit Cloud
+5. **Set Up  Streamlit Cloud**:
    - Visit [Streamlit Cloud](https://share.streamlit.io/).
    - Click “Sign in with GitHub.”Authorize Streamlit Cloud to access your GitHub account.
    - Go to [GitHub](https://github.com/) and create a new repository upload the "Smart-Wi-Fi-Socket-With-Anedya-IOT" File.
