@@ -47,7 +47,6 @@ The Smart WiFi Socket is a WiFi-operated device that allows you to control any e
    - Click on "Nodes."
    - Click on "Create New Node."
    - Enter a name and description for your node.
-   - Node API Identifier: Give a short identifier to refer to this node when accessing through API.
    - Turn on Preauthrorize a Device.
    - Get a Physical Device ID from this website https://www.uuidgenerator.net/  and paste it on Physical Device ID then create node.
    - Now Click on "Details" of the created node note down the Connection Key & Physical Device ID.
