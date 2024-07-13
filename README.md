@@ -52,11 +52,13 @@ The Smart WiFi Socket is a WiFi-operated device that allows you to control any e
    - Now Click on "Details" of the created node note down the Connection Key & Physical Device ID.
    - Next Steps will be done after programing the esp8266 board.
    - Click on "Commands" of the created node.
-   - Then Click on "New Command" to control relay 1 or socket 1 write "light" on command or to control relay 2 or socket 2 write "fan" on command
-   - After that untick the The data is base64 encoded
-   - After that write "on" if you want to turn on socket or write "off" if you want to turn off socket
-   - Then Click on "Create Command" then you will see your physical socket will work properly
-
+   - Then Click on "New Command" to control relay 1 or socket 1 write "light" on command or to control relay 2 or socket 2 write "fan" on command.
+   - After that untick the The data is base64 encoded.
+   - After that write "on" if you want to turn on socket or write "off" if you want to turn off socket.
+   - Then Click on "Create Command" then you will see your physical socket will work properly.
+   - Now create a variable in the project add name,discription,and Variable API Identifire Save the API Identifire name.
+   - Now create a API KEY name that API KEY which you named the variable's Variable API Identifire and save it.
+   - Copy the API KEY.
 
 3. **Programming the ESP8266**:
    - Install the Arduino IDE on your computer.
@@ -65,14 +67,25 @@ The Smart WiFi Socket is a WiFi-operated device that allows you to control any e
    - Write or paste the deviceID & connectionkey provided by anedya iot.
    - Add ssid (your wifi password) & pass (your wifi password) into the code.
    - Upload the code to the ESP8266
+     
+   4. **Set Up  Streamlit Code
+   - Download "Smart-Wi-Fi-Socket-With-Anedya-IOT" File.
+   - Open the Home.py File and add the NODE ID and API KEY provided by Anedya iot.
+   - save the file.
 
-4. **Set Up Anedya-IOT**:
-   - Install the Arduino IDE on your computer.
-   - Add the ESP8266 board to the Arduino IDE.
-   - Install thePubSubClient,ESP8266WiFi,WiFiClientSecure,ArduinoJson,TimeLib,DHT.h libraries in the Arduino IDE.
-   - Write or paste the deviceID & connectionkey provided by anedya iot.
-   - Add ssid (your wifi password) & pass (your wifi password) into the code.
-   - Upload the code to the ESP8266
+4. **Set Up  Streamlit Cloud
+   - Visit [Streamlit Cloud](https://share.streamlit.io/).
+   - Click “Sign in with GitHub.”Authorize Streamlit Cloud to access your GitHub account.
+   - Go to [GitHub](https://github.com/) and create a new repository upload the "Smart-Wi-Fi-Socket-With-Anedya-IOT" File.
+   - On Streamlit Cloud, click “New app.”
+   - Choose your repository from the list.
+   - Select the branch and main file (e.g., `Home.py`).
+   - Click “Deploy.”
+   - Wait for the deployment to complete.
+   - You will get a URL like `https://smart-wi-fi-socket-with-anedya-iot.streamlit.app/`.
+   - ID-astha PASSWORD-manav
+
+
 ## Usage
 
 1. Plug your electronic device into the switchboard socket.
