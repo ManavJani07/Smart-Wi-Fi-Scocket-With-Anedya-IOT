@@ -64,8 +64,15 @@ The Smart WiFi Socket is a WiFi-operated device that allows you to control any e
    - Install thePubSubClient,ESP8266WiFi,WiFiClientSecure,ArduinoJson,TimeLib,DHT.h libraries in the Arduino IDE.
    - Write or paste the deviceID & connectionkey provided by anedya iot.
    - Add ssid (your wifi password) & pass (your wifi password) into the code.
-   - Upload the code to the ESP8266 
+   - Upload the code to the ESP8266
 
+4. **Set Up Anedya-IOT**:
+   - Install the Arduino IDE on your computer.
+   - Add the ESP8266 board to the Arduino IDE.
+   - Install thePubSubClient,ESP8266WiFi,WiFiClientSecure,ArduinoJson,TimeLib,DHT.h libraries in the Arduino IDE.
+   - Write or paste the deviceID & connectionkey provided by anedya iot.
+   - Add ssid (your wifi password) & pass (your wifi password) into the code.
+   - Upload the code to the ESP8266
 ## Usage
 
 1. Plug your electronic device into the switchboard socket.
