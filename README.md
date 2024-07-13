@@ -1,11 +1,11 @@
-# Smart WiFi Socket
+# Smart-WiFi-Socket-With-Anedya-IOT 
 
-The Smart WiFi Socket is a WiFi-operated device that allows you to control any electronic device plugged into it from anywhere using an internet connection. This project utilizes the ESP8266 microcontroller, a relay module, a switchboard socket, and a 5V power supply. The control is facilitated through the Blynk IoT mobile application, providing a user-friendly interface for remote management.
+The Smart WiFi Socket is a WiFi-operated device that allows you to control any electronic device plugged into it from anywhere using an internet connection. This project utilizes the ESP8266 microcontroller, a relay module, a switchboard socket, and a 5V power supply. The control is facilitated through the Anedya-IOT & streamlit, providing a user-friendly interface for remote management.
 
 ## Features
 
-- **Remote Control**: Operate your electronic devices from anywhere using the Blynk app.
-- **User-Friendly Interface**: Simple on/off button control through the Blynk app.
+- **Remote Control**: Operate your electronic devices from anywhere using commands in the Anedya-IOT.
+- **User-Friendly Interface**: Simple on/off button control through the streamlit cloud.
 - **Easy Setup**: Quick and easy installation process with detailed guidance.
 - **Compatibility**: Works with a variety of electronic devices.
 
@@ -15,6 +15,8 @@ The Smart WiFi Socket is a WiFi-operated device that allows you to control any e
 2. **Relay Module**: Controls the power supply to the connected device.
 3. **Switch Board Socket**: The socket into which the device is plugged.
 4. **5V Power Supply**: Powers the ESP8266.
+5. **Anedya-IOT Account**: To send ON/OFF commands.
+6. **Streamlit Account**: To set ON/OFF buttons.
 
 ## Getting Started
 
@@ -24,21 +26,30 @@ The Smart WiFi Socket is a WiFi-operated device that allows you to control any e
 - Relay module
 - Switchboard socket
 - 5V power supply
-- Blynk IoT app installed on your mobile device
 - Basic knowledge of electronics and programming
 
 ### Installation
 
 1. **Assemble the Components**:
-   - Connect the relay module to the ESP8266 at D4 Pin  .
+   - Connect the relay module to the ESP8266 at D0 Pin.
+   - You can connect 2nd relay module to the ESP8266 at D5 Pin  .
    - Wire the switchboard socket to the relay module.
    - Power the ESP8266 using the 5V supply.
 
-2. **Set Up Blynk App**:
-   - Download and install the Blynk app from the App Store or Google Play.
-   - Create a new project in the Blynk app.
-   - Add a button widget to the project and configure it to control a digital pin (e.g., D1) on the ESP8266.
-   - Note down the BLYNK_AUTH_TOKEN,BLYNK_TEMPLATE_ID,BLYNK_TEMPLATE_NAME provided by Blynk.
+2. **Set Up Anedya-IOT**:  
+   - Go to the Anedya IoT website.
+   - Sign up for a new account using your email address and create a password.
+   - Log in to your account using the credentials you created.
+   - Once logged in, navigate to the dashboard.
+   - Click on "Create New Project."
+   - Enter a name and description for your project.
+   - Click on "Your Project."
+   - Click on "Nodes."
+   - Click on "Create New Node."
+   - Enter a name and description for your node.
+   - Turn on Preauthrorize a Device
+   - Get a Physical Device ID from this website https://www.uuidgenerator.net/ 
+
 
 3. **Programming the ESP8266**:
    - Install the Arduino IDE on your computer.
