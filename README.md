@@ -47,8 +47,16 @@ The Smart WiFi Socket is a WiFi-operated device that allows you to control any e
    - Click on "Nodes."
    - Click on "Create New Node."
    - Enter a name and description for your node.
-   - Turn on Preauthrorize a Device
-   - Get a Physical Device ID from this website https://www.uuidgenerator.net/ 
+   - Node API Identifier: Give a short identifier to refer to this node when accessing through API.
+   - Turn on Preauthrorize a Device.
+   - Get a Physical Device ID from this website https://www.uuidgenerator.net/  and paste it on Physical Device ID then create node.
+   - Now Click on "Details" of the created node note down the Connection Key & Physical Device ID.
+   - Next Steps will be done after programing the esp8266 board.
+   - Click on "Commands" of the created node.
+   - Then Click on "New Command" to control relay 1 or socket 1 write "light" on command or to control relay 2 or socket 2 write "fan" on command
+   - After that untick the The data is base64 encoded
+   - After that write "on" if you want to turn on socket or write "off" if you want to turn off socket
+   - Then Click on "Create Command" then you will see your physical socket will work properly
 
 
 3. **Programming the ESP8266**:
